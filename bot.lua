@@ -1021,7 +1021,7 @@ local res = http.request(database.."joke.db")
         .."🏅 #ممنوعیت فیلم : ".."`"..video.."`".."\n"
         .."🏅 #ممنوعیت فایل : ".."`"..document.."`".."\n"
         .."🏅 #ممنوعیت متن : ".."`"..text1.."`".."\n"
-        .."🏅 ورژن 3 سناتور - @Senator_tea  "
+        .."🏅 ورژن 3 سناتور  لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg')  "
         tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
       end
 if input:match("^[#!/][Hh]elp$") and is_mod(msg) or input:match("^[Hh]elp$") and is_mod(msg) or input:match("^راهنما$") and is_mod(msg) then
@@ -1072,7 +1072,7 @@ if input:match("^[#!/][Hh]elp$") and is_mod(msg) or input:match("^[Hh]elp$") and
 .."🏅 *setrules* = `تنظيم قوانين`\n"
 	.."🏅 *rules* = `قوانين`\n"
 	.."🏅 `شما میتونید از ` *!*,*/*,*#* `یا حتی بدون این علائم برای ارسال دستور استفاده کنید`\n"
-        .."🏅  ورژن3سناتور  - @Senator_tea"
+        .."🏅  ورژن3سناتور لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg') "
         tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
       end
 if input:match("^[#!/][Ss][Ee][Nn][Aa][Tt][Oo][Rr]$") and is_mod(msg) or input:match("^[Ss][Ee][Nn][Aa][Tt][Oo][Rr]$") and is_mod(msg) or input:match("^سناتور$") and is_mod(msg) then
@@ -1084,8 +1084,7 @@ if input:match("^[#!/][Ss][Ee][Nn][Aa][Tt][Oo][Rr]$") and is_mod(msg) or input:m
         .."🏅 لانچ شدن خودکار هر 3دقيقه \n"
         .."🏅  ديباگ شده و قدرتمند \n"
         .."🏅  ويرايش و ارتقا: @Lv_t_m\n"       
-        .."🏅 سرور: #المان \n"
-        .."🏅 رم: 8 \n"
+        .."🏅 سرور: #المان \nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg\n"
         .." ................................. "
         tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
       end
