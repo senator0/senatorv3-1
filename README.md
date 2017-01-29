@@ -55,3 +55,21 @@ Create a bot!
 * [@Lv_t_m](https://telegram.me/Lv_t_m) - senator
 <b>Edit and Develop by senatortem</b>
 
+
+# admin
+ * [@dr_slow](https://telegram.me/sudo_dr_slow) - admin
+ 
+ <b> dr.slow big appmaker in web, im dr.slow my life is my PC my life is my WEBS yes im slow </b> 
+ 
+ 
+ 
+ 
+ #drslow
+ 
+ pls install my sourcen and be fun
+ 
+ 
+ <b> GOD sive my hands </b>
+ 
+ 
+
