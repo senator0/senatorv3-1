@@ -340,12 +340,12 @@ local res = http.request(database.."joke.db")
 
       if input:match("^[#!/][Aa]dd$") and is_sudo(msg) or input:match("^[Aa]dd$") and is_sudo(msg) or input:match("^اضافه$") and is_sudo(msg) then
        redis:sadd('groups',chat_id)
-        tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🏅 ⏳_گروه جدید به لیست مدیریتی افزوده شد!_ 🏅\n🏅 افزوده شده توسط: *'..msg.sender_user_id_..'*\n🏅ورژن 3 سناتور🏅\n لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'🎗', 1, 'md')
+        tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🏅 ⏳_گروه جدید به لیست مدیریتی افزوده شد!_ 🏅\n🏅 افزوده شده توسط: *'..msg.sender_user_id_..'*\n🏅ورژن 3 سناتور🏅\n لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg 🎗\n', 1, 'md')
      end
       -------------------------------------------------------------------------------------------------------------------------------------------
       if input:match("^[#!/][Rr]em$") and is_sudo(msg) or input:match("^[Rr]em$") and is_sudo(msg) or input:match("^حذف گروه$") and is_sudo(msg) then
         redis:srem('groups',chat_id)
-        tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🏅 ⏳_گروه از لیست مدیریتی حذف شد!_ 🏅\n🏅 حذف شده توسط: *'..msg.sender_user_id_..'*\n🏅ورژن 3 سناتور🏅\n لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'🎗  ', 1, 'md')
+        tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🏅 ⏳_گروه از لیست مدیریتی حذف شد!_ 🏅\n🏅 حذف شده توسط: *'..msg.sender_user_id_..'*\n🏅ورژن 3 سناتور🏅\n لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg 🎗\n  ', 1, 'md')
       end
       -----------------------------------------------------------------------------------------------------------------------------------------------
       -----------------------------------------------------------------------
