@@ -1,17 +1,17 @@
-# [JOVE GOD](https://github.com/JOVETEAM/jove)
+# [senator](https://github.com/senatorv2)
 *TG-CLI based broadcasting bot!*
 
-*JoveGod was based on TeleMute!*
+
 # Install
 ```
 cd $HOME
-git clone https://github.com/JOVETEAM/jove.git
-cd jove
+git clone https://github.com/senatorv2/senatorv3
+cd senatorv3
 chmod +x install.sh
 chmod +x launch.sh
 chmod +x tg
 chmod +x anticrash.py
-chmod +x jove
+chmod +x senator
 ./install.sh
 #هرقسمت که 
 #[y/N]
@@ -36,29 +36,22 @@ nano config.py
 #yourbotname:نامی دلخواه که اسم ربات شماست
 #/home/userserver/foldername:آدرس پوشه ربات شما
 #اگر ربات شما در یوزری غیرروت باشد به شکل زیر است
-#/home/userserver/foldername:که userserver همان یوزر سرور شما و foldername همان jove است
+#/home/userserver/foldername:که userserver همان یوزر سرور شما و foldername همان senator است
 #اگر در روت نصب کرده باشید بدین شکل وارد کنید: /root/foldername
 #userserver:همان یوزر سرور شماست
 #حال دوکلید
 #CTRL و X
 #را بزنید سپس y
 #و درنهایت اینتر بزنید.حال با دستور زیر میتوانید ربات خود را بدون آفی ران کنید:
-screen ./jove
+screen ./senator
 ```
 Create a bot!
 
-Tasted On Ubuntu 14.04 LTS and 16.04 LTS
-
-For Buying server:
-
-[JoveServer](https://joveserver.com)
 
 # Help And More...
-[Click here to join support!](https://t.me/joinchat/AAAAAD__NnItXiIVc_1bSA)
+[Click here to join support!](https://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg)
 
 # Developer
-* [@ByeCoder](https://telegram.me/ByeCoder) - Pouya Poorrahman
+* [@Lv_t_m](https://telegram.me/Lv_t_m) - senator
+<b>Edit and Develop by senatortem</b>
 
-<b>Edit and Develop by JoveTeam</b>
-
-<i>special tnx to MuteTeam for this base</i>
