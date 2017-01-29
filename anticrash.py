@@ -19,9 +19,8 @@ __author__ = "Allen - @Dragon_Born"
 """
 Anticrash script for telegram_cli
 Special thanks to:
-@imandaneshi
-@siyanew
-@it_s_me
+@Lv_t_m
+@sudo_Dr_slow
 and everyone who helped me for this project
 """
 config = importlib.import_module("config")
